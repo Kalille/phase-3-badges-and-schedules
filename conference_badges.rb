@@ -31,12 +31,12 @@ def printer(string)
     batch_badge_creator(string).each do |badge|
         # array1.push(badge)
         puts badge
-   
+    end
         assign_rooms(string).each do |room|
-            # array2.push(room)
+        #     # array2.push(room)
             puts room
 
-        end
+        
     #    array1
     #    array2
     end
